@@ -14,12 +14,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define DSP_FODDIAN_PROJECT_PlayerAvatar_generated_h
 
+#define FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execHandleRespawnInput); \
+	DECLARE_FUNCTION(execHandleDeathInput); \
+	DECLARE_FUNCTION(execDiePlayer); \
+	DECLARE_FUNCTION(execRespawnPlayer);
+
+
 #define FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerAvatar(); \
 	friend struct Z_Construct_UClass_APlayerAvatar_Statics; \
 public: \
-	DECLARE_CLASS(APlayerAvatar, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/DSP_Foddian_Project"), NO_API) \
+	DECLARE_CLASS(APlayerAvatar, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/DSP_Foddian_Project"), NO_API) \
 	DECLARE_SERIALIZER(APlayerAvatar)
 
 
@@ -39,6 +46,7 @@ public: \
 #define FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_12_INCLASS_NO_PURE_DECLS \
 	FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_12_ENHANCED_CONSTRUCTORS \
 private: \

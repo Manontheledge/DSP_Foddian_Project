@@ -7,6 +7,15 @@
         "Includes": [
             "e:\\unreal\\dsp_foddian_project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dsp_foddian_project\\definitions.dsp_foddian_project.h",
             "e:\\unreal\\dsp_foddian_project\\source\\dsp_foddian_project\\playeravatar.h",
+            "e:\\unreal\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "e:\\unreal\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "e:\\unreal\\ue_5.5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
+            "e:\\unreal\\ue_5.5\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "e:\\unreal\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "e:\\unreal\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "e:\\unreal\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "e:\\unreal\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "e:\\unreal\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
             "e:\\unreal\\dsp_foddian_project\\intermediate\\build\\win64\\unrealeditor\\inc\\dsp_foddian_project\\uht\\playeravatar.generated.h"
         ],
         "ImportedModules": [],
