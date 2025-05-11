@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "DSP_Foddian_Project",
+			"Path": "..\\Source\\DSP_Foddian_Project.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "DSP_Foddian_ProjectEditor",
+			"Path": "..\\Source\\DSP_Foddian_ProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

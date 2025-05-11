@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\unreal\\dsp_foddian_project\\source\\dsp_foddian_project\\dsp_foddian_project.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unreal\\dsp_foddian_project\\intermediate\\build\\win64\\x64\\dsp_foddian_projecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\unreal\\dsp_foddian_project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dsp_foddian_project\\definitions.dsp_foddian_project.h",
+            "e:\\unreal\\dsp_foddian_project\\source\\dsp_foddian_project\\dsp_foddian_project.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
