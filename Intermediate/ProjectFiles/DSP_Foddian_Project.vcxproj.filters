@@ -11,6 +11,11 @@
     <None Include="..\..\Source\DSP_Foddian_ProjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\LICENSE" />
+    <None Include="..\..\README.md" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -51,6 +56,30 @@
       <Filter>Source\DSP_Foddian_Project</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\DSP_Foddian_Project\DSP_Foddian_ProjectGameMode.h">
+      <Filter>Source\DSP_Foddian_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSP_Foddian_Project\FoddianGameInstance.cpp">
+      <Filter>Source\DSP_Foddian_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSP_Foddian_Project\FoddianGameInstance.h">
+      <Filter>Source\DSP_Foddian_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSP_Foddian_Project\FoddianGameMode.cpp">
+      <Filter>Source\DSP_Foddian_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSP_Foddian_Project\FoddianGameMode.h">
+      <Filter>Source\DSP_Foddian_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSP_Foddian_Project\FoddianGameState.cpp">
+      <Filter>Source\DSP_Foddian_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSP_Foddian_Project\FoddianGameState.h">
+      <Filter>Source\DSP_Foddian_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSP_Foddian_Project\PlayerAvatar.cpp">
+      <Filter>Source\DSP_Foddian_Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSP_Foddian_Project\PlayerAvatar.h">
       <Filter>Source\DSP_Foddian_Project</Filter>
     </ClCompile>
   </ItemGroup>
