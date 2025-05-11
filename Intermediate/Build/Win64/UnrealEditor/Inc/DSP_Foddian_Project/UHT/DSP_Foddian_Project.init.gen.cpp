@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeDSP_Foddian_Project_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x37436F2C,
+				0x61C8CD39,
 				0xB4F5499A,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeDSP_Foddian_Project_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_DSP_Foddian_Project.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_DSP_Foddian_Project(Z_Construct_UPackage__Script_DSP_Foddian_Project, TEXT("/Script/DSP_Foddian_Project"), Z_Registration_Info_UPackage__Script_DSP_Foddian_Project, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x37436F2C, 0xB4F5499A));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_DSP_Foddian_Project(Z_Construct_UPackage__Script_DSP_Foddian_Project, TEXT("/Script/DSP_Foddian_Project"), Z_Registration_Info_UPackage__Script_DSP_Foddian_Project, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x61C8CD39, 0xB4F5499A));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
