@@ -1,12 +1,12 @@
-"E:\Unreal\DSP_Foddian_Project\Intermediate\Build\Win64\UnrealEditor\Inc\DSP_Foddian_Project\UHT\FoddianGameInstance.gen.cpp"
-/FI"E:\Unreal\DSP_Foddian_Project\Intermediate\Build\Win64\x64\DSP_Foddian_ProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"E:\Unreal\DSP_Foddian_Project\Intermediate\Build\Win64\x64\UnrealEditor\Development\DSP_Foddian_Project\Definitions.DSP_Foddian_Project.h"
-/Yu"E:\Unreal\DSP_Foddian_Project\Intermediate\Build\Win64\x64\DSP_Foddian_ProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"E:\Unreal\DSP_Foddian_Project\Intermediate\Build\Win64\x64\DSP_Foddian_ProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"E:\Unreal\DSP_Foddian_Project\Intermediate\Build\Win64\x64\UnrealEditor\Development\DSP_Foddian_Project\FoddianGameInstance.gen.cpp.obj"
-/experimental:log "E:\Unreal\DSP_Foddian_Project\Intermediate\Build\Win64\x64\UnrealEditor\Development\DSP_Foddian_Project\FoddianGameInstance.gen.cpp.sarif"
-/sourceDependencies "E:\Unreal\DSP_Foddian_Project\Intermediate\Build\Win64\x64\UnrealEditor\Development\DSP_Foddian_Project\FoddianGameInstance.gen.cpp.dep.json"
-@"E:\Unreal\DSP_Foddian_Project\Intermediate\Build\Win64\x64\UnrealEditor\Development\DSP_Foddian_Project\DSP_Foddian_Project.Shared.rsp"
+"C:\Users\devea\OneDrive\Documents\GitHub\DSP_Foddian_Project\Intermediate\Build\Win64\UnrealEditor\Inc\DSP_Foddian_Project\UHT\FoddianGameInstance.gen.cpp"
+/FI"C:\Users\devea\OneDrive\Documents\GitHub\DSP_Foddian_Project\Intermediate\Build\Win64\x64\DSP_Foddian_ProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"C:\Users\devea\OneDrive\Documents\GitHub\DSP_Foddian_Project\Intermediate\Build\Win64\x64\UnrealEditor\Development\DSP_Foddian_Project\Definitions.DSP_Foddian_Project.h"
+/Yu"C:\Users\devea\OneDrive\Documents\GitHub\DSP_Foddian_Project\Intermediate\Build\Win64\x64\DSP_Foddian_ProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"C:\Users\devea\OneDrive\Documents\GitHub\DSP_Foddian_Project\Intermediate\Build\Win64\x64\DSP_Foddian_ProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"C:\Users\devea\OneDrive\Documents\GitHub\DSP_Foddian_Project\Intermediate\Build\Win64\x64\UnrealEditor\Development\DSP_Foddian_Project\FoddianGameInstance.gen.cpp.obj"
+/experimental:log "C:\Users\devea\OneDrive\Documents\GitHub\DSP_Foddian_Project\Intermediate\Build\Win64\x64\UnrealEditor\Development\DSP_Foddian_Project\FoddianGameInstance.gen.cpp.sarif"
+/sourceDependencies "C:\Users\devea\OneDrive\Documents\GitHub\DSP_Foddian_Project\Intermediate\Build\Win64\x64\UnrealEditor\Development\DSP_Foddian_Project\FoddianGameInstance.gen.cpp.dep.json"
+@"C:\Users\devea\OneDrive\Documents\GitHub\DSP_Foddian_Project\Intermediate\Build\Win64\x64\UnrealEditor\Development\DSP_Foddian_Project\DSP_Foddian_Project.Shared.rsp"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo

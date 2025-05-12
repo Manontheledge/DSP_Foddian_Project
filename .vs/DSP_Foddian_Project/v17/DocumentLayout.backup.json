@@ -1,12 +1,87 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\devea\\OneDrive\\Documents\\GitHub\\DSP_Foddian_Project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2139CB0A-B45F-3346-A922-0F6DF24BFA88}|Intermediate\\ProjectFiles\\DSP_Foddian_Project.vcxproj|C:\\Users\\devea\\OneDrive\\Documents\\GitHub\\DSP_Foddian_Project\\Source\\DSP_Foddian_Project\\jumpPadActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2139CB0A-B45F-3346-A922-0F6DF24BFA88}|Intermediate\\ProjectFiles\\DSP_Foddian_Project.vcxproj|solutionrelative:Source\\DSP_Foddian_Project\\jumpPadActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\devea\\OneDrive\\Documents\\GitHub\\DSP_Foddian_Project\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\DSP_Foddian_Project\\UHT\\DSP_Foddian_ProjectCharacter.generated.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\DSP_Foddian_Project\\UHT\\DSP_Foddian_ProjectCharacter.generated.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2139CB0A-B45F-3346-A922-0F6DF24BFA88}|Intermediate\\ProjectFiles\\DSP_Foddian_Project.vcxproj|C:\\Users\\devea\\OneDrive\\Documents\\GitHub\\DSP_Foddian_Project\\Source\\DSP_Foddian_Project\\DSP_Foddian_ProjectCharacter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2139CB0A-B45F-3346-A922-0F6DF24BFA88}|Intermediate\\ProjectFiles\\DSP_Foddian_Project.vcxproj|solutionrelative:Source\\DSP_Foddian_Project\\DSP_Foddian_ProjectCharacter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2139CB0A-B45F-3346-A922-0F6DF24BFA88}|Intermediate\\ProjectFiles\\DSP_Foddian_Project.vcxproj|C:\\Users\\devea\\OneDrive\\Documents\\GitHub\\DSP_Foddian_Project\\Source\\DSP_Foddian_Project\\DSP_Foddian_ProjectCharacter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2139CB0A-B45F-3346-A922-0F6DF24BFA88}|Intermediate\\ProjectFiles\\DSP_Foddian_Project.vcxproj|solutionrelative:Source\\DSP_Foddian_Project\\DSP_Foddian_ProjectCharacter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "jumpPadActor.cpp",
+              "DocumentMoniker": "C:\\Users\\devea\\OneDrive\\Documents\\GitHub\\DSP_Foddian_Project\\Source\\DSP_Foddian_Project\\jumpPadActor.cpp",
+              "RelativeDocumentMoniker": "Source\\DSP_Foddian_Project\\jumpPadActor.cpp",
+              "ToolTip": "C:\\Users\\devea\\OneDrive\\Documents\\GitHub\\DSP_Foddian_Project\\Source\\DSP_Foddian_Project\\jumpPadActor.cpp",
+              "RelativeToolTip": "Source\\DSP_Foddian_Project\\jumpPadActor.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-12T00:15:54.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DSP_Foddian_ProjectCharacter.generated.h",
+              "DocumentMoniker": "C:\\Users\\devea\\OneDrive\\Documents\\GitHub\\DSP_Foddian_Project\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\DSP_Foddian_Project\\UHT\\DSP_Foddian_ProjectCharacter.generated.h",
+              "RelativeDocumentMoniker": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\DSP_Foddian_Project\\UHT\\DSP_Foddian_ProjectCharacter.generated.h",
+              "ToolTip": "C:\\Users\\devea\\OneDrive\\Documents\\GitHub\\DSP_Foddian_Project\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\DSP_Foddian_Project\\UHT\\DSP_Foddian_ProjectCharacter.generated.h",
+              "RelativeToolTip": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\DSP_Foddian_Project\\UHT\\DSP_Foddian_ProjectCharacter.generated.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-12T00:10:40.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DSP_Foddian_ProjectCharacter.cpp",
+              "DocumentMoniker": "C:\\Users\\devea\\OneDrive\\Documents\\GitHub\\DSP_Foddian_Project\\Source\\DSP_Foddian_Project\\DSP_Foddian_ProjectCharacter.cpp",
+              "RelativeDocumentMoniker": "Source\\DSP_Foddian_Project\\DSP_Foddian_ProjectCharacter.cpp",
+              "ToolTip": "C:\\Users\\devea\\OneDrive\\Documents\\GitHub\\DSP_Foddian_Project\\Source\\DSP_Foddian_Project\\DSP_Foddian_ProjectCharacter.cpp",
+              "RelativeToolTip": "Source\\DSP_Foddian_Project\\DSP_Foddian_ProjectCharacter.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-12T00:08:38.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DSP_Foddian_ProjectCharacter.h",
+              "DocumentMoniker": "C:\\Users\\devea\\OneDrive\\Documents\\GitHub\\DSP_Foddian_Project\\Source\\DSP_Foddian_Project\\DSP_Foddian_ProjectCharacter.h",
+              "RelativeDocumentMoniker": "Source\\DSP_Foddian_Project\\DSP_Foddian_ProjectCharacter.h",
+              "ToolTip": "C:\\Users\\devea\\OneDrive\\Documents\\GitHub\\DSP_Foddian_Project\\Source\\DSP_Foddian_Project\\DSP_Foddian_ProjectCharacter.h",
+              "RelativeToolTip": "Source\\DSP_Foddian_Project\\DSP_Foddian_ProjectCharacter.h",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-12T00:08:37.349Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -243,14 +243,14 @@ APlayerAvatar::~APlayerAvatar() {}
 // End Class APlayerAvatar
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_devea_OneDrive_Documents_GitHub_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_APlayerAvatar, APlayerAvatar::StaticClass, TEXT("APlayerAvatar"), &Z_Registration_Info_UClass_APlayerAvatar, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerAvatar), 2105153663U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_2673598172(TEXT("/Script/DSP_Foddian_Project"),
-	Z_CompiledInDeferFile_FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_devea_OneDrive_Documents_GitHub_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_2673598172(TEXT("/Script/DSP_Foddian_Project"),
+	Z_CompiledInDeferFile_FID_Users_devea_OneDrive_Documents_GitHub_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_devea_OneDrive_Documents_GitHub_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration
