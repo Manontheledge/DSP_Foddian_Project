@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeDSP_Foddian_Project_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xD097248B,
-				0xC6E6838E,
+				0x4BF20326,
+				0x4A73564D,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_DSP_Foddian_Project.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_DSP_Foddian_Project.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_DSP_Foddian_Project(Z_Construct_UPackage__Script_DSP_Foddian_Project, TEXT("/Script/DSP_Foddian_Project"), Z_Registration_Info_UPackage__Script_DSP_Foddian_Project, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xD097248B, 0xC6E6838E));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_DSP_Foddian_Project(Z_Construct_UPackage__Script_DSP_Foddian_Project, TEXT("/Script/DSP_Foddian_Project"), Z_Registration_Info_UPackage__Script_DSP_Foddian_Project, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x4BF20326, 0x4A73564D));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
