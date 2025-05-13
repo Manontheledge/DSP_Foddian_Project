@@ -76,12 +76,6 @@
     <ClCompile Include="..\..\Source\DSP_Foddian_Project\FoddianGameState.h">
       <Filter>Source\DSP_Foddian_Project</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\DSP_Foddian_Project\jumpPadActor.cpp">
-      <Filter>Source\DSP_Foddian_Project</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\DSP_Foddian_Project\jumpPadActor.h">
-      <Filter>Source\DSP_Foddian_Project</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\DSP_Foddian_Project\PlayerAvatar.cpp">
       <Filter>Source\DSP_Foddian_Project</Filter>
     </ClCompile>

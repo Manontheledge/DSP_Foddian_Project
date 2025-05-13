@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DSP_Foddian_ProjectModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98b6e9027e94df5ba821b87085565db72eb1fa10")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e1a8d88d3d3810de5fd21c2b22df6ebdb78be85")]
 [assembly: System.Reflection.AssemblyProductAttribute("DSP_Foddian_ProjectModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DSP_Foddian_ProjectModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
