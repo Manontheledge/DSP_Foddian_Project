@@ -8,6 +8,8 @@
 #include "GameFramework/PlayerController.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/Actor.h"
+#include "Components/InputComponent.h"
+
 #include "TimerManager.h"
 #include "PlayerAvatar.h"
 // Sets default values
@@ -97,12 +99,12 @@ void APlayerAvatar::RespawnPlayer()
 {
 	SetActorLocation(SpawnLocation); // Respawn the player at the initial spawn location
 	GetMesh()->SetVisibility(true); // Make the player visible again
-	GetCharacterMovement->StopMovementImmediately(); // Stop any movement
-	AController* Controller = GetController();
-	if (Controller)
+	GetCharacterMovement()->StopMovementImmediately(); // Stop any movement
+	AController* PlayerController = GetController();
+	if (PlayerController)
 	{
-		Controller->SetIgnoreMoveInput(false);//Unpossess the player controller
-		Controller->SetIgnoreLookInput(false); // Repossess the player
+		PlayerController->SetIgnoreMoveInput(false);//Unpossess the player controller
+		PlayerController->SetIgnoreLookInput(false); // Repossess the player
 	}
 	// Logic to handle player respawn
 	// For example, play a respawn animation or sound
