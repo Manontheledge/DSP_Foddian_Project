@@ -1,6 +1,7 @@
 {
 	"SourceFiles": [
 		"E:\\Unreal\\DSP_Foddian_Project\\Source\\DSP_Foddian_Project\\DSP_Foddian_Project.Build.cs",
+		"E:\\Unreal\\DSP_Foddian_Project\\Source\\DSP_Foddian_Project\\MainMenu.Build.cs",
 		"E:\\Unreal\\DSP_Foddian_Project\\Source\\DSP_Foddian_Project.Target.cs",
 		"E:\\Unreal\\DSP_Foddian_Project\\Source\\DSP_Foddian_ProjectEditor.Target.cs"
 	],
