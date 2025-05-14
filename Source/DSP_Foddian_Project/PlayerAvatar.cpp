@@ -1,5 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+#include "PlayerAvatar.h" // MUST be the first include
 
 
 #include "GameFramework/CharacterMovementComponent.h"
@@ -9,9 +10,7 @@
 #include "GameFramework/Controller.h"
 #include "GameFramework/Actor.h"
 #include "Components/InputComponent.h"
-
 #include "TimerManager.h"
-#include "PlayerAvatar.h"
 // Sets default values
 APlayerAvatar::APlayerAvatar()
 {
