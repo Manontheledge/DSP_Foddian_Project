@@ -11,8 +11,6 @@
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 
-DEFINE_LOG_CATEGORY(LogTemplateCharacter);
-
 //////////////////////////////////////////////////////////////////////////
 // ADSP_Foddian_ProjectCharacter
 
@@ -20,7 +18,7 @@ ADSP_Foddian_ProjectCharacter::ADSP_Foddian_ProjectCharacter()
 {
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
-		
+
 	// Don't rotate when the controller rotates. Let that just affect the camera.
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationYaw = false;
@@ -75,7 +73,7 @@ void ADSP_Foddian_ProjectCharacter::SetupPlayerInputComponent(UInputComponent* P
 {
 	// Set up action bindings
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent)) {
-		
+
 		// Jumping
 		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Started, this, &ACharacter::Jump);
 		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &ACharacter::StopJumping);
@@ -105,7 +103,7 @@ void ADSP_Foddian_ProjectCharacter::Move(const FInputActionValue& Value)
 
 		// get forward vector
 		const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-	
+
 		// get right vector 
 		const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 

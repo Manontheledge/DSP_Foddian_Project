@@ -11,8 +11,15 @@ class ADSP_Foddian_ProjectGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 
+	UFUNCTION(BlueprintCallable, Category = "Game")
+	void WinGame();
+	UFUNCTION(BlueprintCallable, Category = "Respawn")
+	void RespawnPlayer(FTransform SpawnTransform);
+
+
 public:
 	ADSP_Foddian_ProjectGameMode();
+
 };
 
 

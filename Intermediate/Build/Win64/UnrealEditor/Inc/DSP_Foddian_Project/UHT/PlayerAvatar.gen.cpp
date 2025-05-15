@@ -51,82 +51,18 @@ DEFINE_FUNCTION(APlayerAvatar::execDiePlayer)
 }
 // End Class APlayerAvatar Function DiePlayer
 
-// Begin Class APlayerAvatar Function HandleDeathInput
-struct Z_Construct_UFunction_APlayerAvatar_HandleDeathInput_Statics
-{
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Function to handle player death\n" },
-#endif
-		{ "ModuleRelativePath", "PlayerAvatar.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Function to handle player death" },
-#endif
-	};
-#endif // WITH_METADATA
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerAvatar_HandleDeathInput_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerAvatar, nullptr, "HandleDeathInput", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerAvatar_HandleDeathInput_Statics::Function_MetaDataParams), Z_Construct_UFunction_APlayerAvatar_HandleDeathInput_Statics::Function_MetaDataParams) };
-UFunction* Z_Construct_UFunction_APlayerAvatar_HandleDeathInput()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_APlayerAvatar_HandleDeathInput_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-DEFINE_FUNCTION(APlayerAvatar::execHandleDeathInput)
-{
-	P_FINISH;
-	P_NATIVE_BEGIN;
-	P_THIS->HandleDeathInput();
-	P_NATIVE_END;
-}
-// End Class APlayerAvatar Function HandleDeathInput
-
-// Begin Class APlayerAvatar Function HandleRespawnInput
-struct Z_Construct_UFunction_APlayerAvatar_HandleRespawnInput_Statics
-{
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Function to handle player death input\n" },
-#endif
-		{ "ModuleRelativePath", "PlayerAvatar.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Function to handle player death input" },
-#endif
-	};
-#endif // WITH_METADATA
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerAvatar_HandleRespawnInput_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerAvatar, nullptr, "HandleRespawnInput", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerAvatar_HandleRespawnInput_Statics::Function_MetaDataParams), Z_Construct_UFunction_APlayerAvatar_HandleRespawnInput_Statics::Function_MetaDataParams) };
-UFunction* Z_Construct_UFunction_APlayerAvatar_HandleRespawnInput()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_APlayerAvatar_HandleRespawnInput_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-DEFINE_FUNCTION(APlayerAvatar::execHandleRespawnInput)
-{
-	P_FINISH;
-	P_NATIVE_BEGIN;
-	P_THIS->HandleRespawnInput();
-	P_NATIVE_END;
-}
-// End Class APlayerAvatar Function HandleRespawnInput
-
 // Begin Class APlayerAvatar Function RespawnPlayer
 struct Z_Construct_UFunction_APlayerAvatar_RespawnPlayer_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Called when the game starts or when spawned\n" },
+#endif
 		{ "ModuleRelativePath", "PlayerAvatar.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Called when the game starts or when spawned" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -156,8 +92,6 @@ void APlayerAvatar::StaticRegisterNativesAPlayerAvatar()
 	UClass* Class = APlayerAvatar::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
 		{ "DiePlayer", &APlayerAvatar::execDiePlayer },
-		{ "HandleDeathInput", &APlayerAvatar::execHandleDeathInput },
-		{ "HandleRespawnInput", &APlayerAvatar::execHandleRespawnInput },
 		{ "RespawnPlayer", &APlayerAvatar::execRespawnPlayer },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -191,9 +125,7 @@ struct Z_Construct_UClass_APlayerAvatar_Statics
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_APlayerAvatar_DiePlayer, "DiePlayer" }, // 379196971
-		{ &Z_Construct_UFunction_APlayerAvatar_HandleDeathInput, "HandleDeathInput" }, // 2498387909
-		{ &Z_Construct_UFunction_APlayerAvatar_HandleRespawnInput, "HandleRespawnInput" }, // 363770243
-		{ &Z_Construct_UFunction_APlayerAvatar_RespawnPlayer, "RespawnPlayer" }, // 1208327706
+		{ &Z_Construct_UFunction_APlayerAvatar_RespawnPlayer, "RespawnPlayer" }, // 343430574
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -246,10 +178,10 @@ APlayerAvatar::~APlayerAvatar() {}
 struct Z_CompiledInDeferFile_FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_APlayerAvatar, APlayerAvatar::StaticClass, TEXT("APlayerAvatar"), &Z_Registration_Info_UClass_APlayerAvatar, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerAvatar), 2105153663U) },
+		{ Z_Construct_UClass_APlayerAvatar, APlayerAvatar::StaticClass, TEXT("APlayerAvatar"), &Z_Registration_Info_UClass_APlayerAvatar, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerAvatar), 963783901U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_2673598172(TEXT("/Script/DSP_Foddian_Project"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_1319583089(TEXT("/Script/DSP_Foddian_Project"),
 	Z_CompiledInDeferFile_FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

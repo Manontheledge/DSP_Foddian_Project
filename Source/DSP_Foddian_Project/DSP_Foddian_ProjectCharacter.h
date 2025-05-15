@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
-#include "DSP_Foddian_ProjectCharacter.generated.h"
+#include "DSP_Foddian_ProjectCHaracter.generated.h"
 
 class USpringArmComponent;
 class UCameraComponent;
@@ -15,7 +15,7 @@ struct FInputActionValue;
 
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
 
-UCLASS(config=Game)
+UCLASS(config = Game)
 class ADSP_Foddian_ProjectCharacter : public ACharacter
 {
 	GENERATED_BODY()
@@ -27,7 +27,7 @@ class ADSP_Foddian_ProjectCharacter : public ACharacter
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	UCameraComponent* FollowCamera;
-	
+
 	/** MappingContext */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputMappingContext* DefaultMappingContext;
@@ -46,7 +46,7 @@ class ADSP_Foddian_ProjectCharacter : public ACharacter
 
 public:
 	ADSP_Foddian_ProjectCharacter();
-	
+
 
 protected:
 
@@ -55,7 +55,7 @@ protected:
 
 	/** Called for looking input */
 	void Look(const FInputActionValue& Value);
-			
+
 
 protected:
 
@@ -69,4 +69,3 @@ public:
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 };
-

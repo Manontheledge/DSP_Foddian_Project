@@ -15,8 +15,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define DSP_FODDIAN_PROJECT_PlayerAvatar_generated_h
 
 #define FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_PlayerAvatar_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execHandleRespawnInput); \
-	DECLARE_FUNCTION(execHandleDeathInput); \
 	DECLARE_FUNCTION(execDiePlayer); \
 	DECLARE_FUNCTION(execRespawnPlayer);
 

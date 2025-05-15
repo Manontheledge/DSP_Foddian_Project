@@ -14,6 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define DSP_FODDIAN_PROJECT_DSP_Foddian_ProjectGameMode_generated_h
 
+#define FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_DSP_Foddian_ProjectGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execRespawnPlayer); \
+	DECLARE_FUNCTION(execWinGame);
+
+
 #define FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_DSP_Foddian_ProjectGameMode_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesADSP_Foddian_ProjectGameMode(); \
@@ -39,6 +44,7 @@ public: \
 #define FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_DSP_Foddian_ProjectGameMode_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_DSP_Foddian_ProjectGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_DSP_Foddian_ProjectGameMode_h_12_INCLASS_NO_PURE_DECLS \
 	FID_DSP_Foddian_Project_Source_DSP_Foddian_Project_DSP_Foddian_ProjectGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \

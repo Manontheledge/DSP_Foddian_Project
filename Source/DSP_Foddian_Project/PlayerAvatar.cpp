@@ -25,15 +25,22 @@ APlayerAvatar::APlayerAvatar()
 // Called when the game starts or when spawned
 void APlayerAvatar::BeginPlay()
 {
-	APlayerStart* Start = Cast<APlayerStart>(UGameplayStatics::GetActorOfClass(GetWorld(), APlayerStart::StaticClass()));
-	//Super::BeginPlay();
-	if(Start)
+	Super::BeginPlay();
+	// Get the initial spawn location of the player
+	SpawnLocation = GetActorLocation();
+	// Find the PlayerStart actor in the level
+	TArray<AActor*> PlayerStarts;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), APlayerStart::StaticClass(), PlayerStarts);
+	if (PlayerStarts.Num() > 0)
 	{
-		SpawnLocation = Start->GetActorLocation(); // Store the spawn location from PlayerStart
+		// Set the spawn location to the first PlayerStart found
+		SpawnLocation = PlayerStarts[0]->GetActorLocation();
 	}
-	else{
-		SpawnLocation = GetActorLocation(); // Store the initial spawn location
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("No PlayerStart found in the level!"));
 	}
+	
 }
 
 
@@ -50,17 +57,17 @@ void APlayerAvatar::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 	// Bind input actions
 	PlayerInputComponent->BindAction("Die", IE_Pressed, this, &APlayerAvatar::HandleDeathInput);
 	PlayerInputComponent->BindAction("Respawn", IE_Pressed, this, &APlayerAvatar::HandleRespawnInput);
-	PlayerInputComponent->BindAxis("MoveForward", this, &APlayerAvatar::AMoveForward);
-	PlayerInputComponent->BindAxis("MoveRight", this, &APlayerAvatar::AMoveRight);
+	PlayerInputComponent->BindAxis("MoveForward", this, &APlayerAvatar::MoveForward);
+	PlayerInputComponent->BindAxis("MoveRight", this, &APlayerAvatar::MoveRight);
 	PlayerInputComponent->BindAction("Jump",IE_Pressed, this, &APlayerAvatar::Jump);
 	PlayerInputComponent->BindAction("Jump",IE_Released, this, &APlayerAvatar::StopJumping);
 }
-void APlayerAvatar::AMoveForward(float Value)
+void APlayerAvatar::MoveForward(float Value)
 {
 	// Move the player forward/backward
 	AddMovementInput(GetActorForwardVector(), Value);
 }
-void APlayerAvatar::AMoveRight(float Value)
+void APlayerAvatar::MoveRight(float Value)
 {
 	// Move the player right/left
 	AddMovementInput(GetActorRightVector(), Value);

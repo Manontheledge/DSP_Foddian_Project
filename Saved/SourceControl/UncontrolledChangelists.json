@@ -5,7 +5,15 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"E:/Unreal/DSP_Foddian_Project/Content/StarterContent/Architecture/Floor_400x400.uasset"
+				"E:/Unreal/DSP_Foddian_Project/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"E:/Unreal/DSP_Foddian_Project/Content/ThirdPerson/Blueprints/BP_AvatarCharacter.uasset",
+				"E:/Unreal/DSP_Foddian_Project/Content/ThirdPerson/BP_AvatarCharacter.uasset",
+				"E:/Unreal/DSP_Foddian_Project/Content/ThirdPerson/Blueprints/BP_Jump.uasset",
+				"E:/Unreal/DSP_Foddian_Project/Content/ThirdPerson/Blueprints/BP_SmallJump.uasset",
+				"E:/Unreal/DSP_Foddian_Project/Content/ThirdPerson/Blueprints/DeathZone.uasset",
+				"E:/Unreal/DSP_Foddian_Project/Content/ThirdPerson/Blueprints/DSP_Foddian_ProjectGameMode.uasset",
+				"E:/Unreal/DSP_Foddian_Project/Content/ThirdPerson/Blueprints/WinnersStar.uasset",
+				"E:/Unreal/DSP_Foddian_Project/Content/PaulsUpdatedmap.umap"
 			]
 		}
 	]
